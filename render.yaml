@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: dota2-counter-picker
+    runtime: static
+    buildCommand: echo "no build needed"
+    staticPublishPath: .
